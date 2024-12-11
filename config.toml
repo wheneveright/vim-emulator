@@ -1,0 +1,80 @@
+[keybindings.NORMAL]
+h = "move_cursor_left"
+l = "move_cursor_right"
+j = "move_cursor_down"
+k = "move_cursor_up"
+i = "switch_to_insert"
+I = ['^','i']
+x = ["a","backspace","escape"]
+':' = "switch_to_command"
+o = "new_line"
+O = "new_line_upward"
+'^' = "line_begin"
+'$' = "line_end"
+a = 'append_char'
+s = ['x','i']
+A = ['$','a']
+w = "next_word"
+W = "next_WORD"
+D = "delete_line"
+S = ['D','i']
+J = ['5','j']
+K = ['5','k']
+# J = "join_next_line" 
+escape = "clean_oplist"
+b = "last_word"
+B = "last_WORD"
+e = "next_word_end"
+E = "next_WORD_end"
+f = "inline_search"
+F = "inline_search_backward"
+t = "inline_search_until"
+T = "inline_search_backward_until"
+r = "replace_char"
+
+
+[keybindings.INSERT]
+escape = "switch_to_normal"
+return = "split_line"
+backspace = "delete_char"
+
+[keybindings.COMMAND]
+return = "execute_command"
+backspace = "delete_command"
+escape = "switch_to_normal"
+':q' = "quit"
+
+# [keybindings.SEARCH]
+# return = "execute_search"
+# backspace = "edit_search"
+
+# [keybindings.VISUAL]
+# escape = "switch_to_normal"
+# h = "move_cursor_left"
+# l = "move_cursor_right"
+# j = "move_cursor_down"
+# k = "move_cursor_up"
+# b = "last_word"
+# B = "last_WORD"
+# e = "next_word_end"
+# E = "next_WORD_end"
+# f = "inline_search"
+# F = "inline_search_backward"
+# t = "inline_search_until"
+# T = "inline_search_backward_until"
+# r = "visual_replace_char"
+# o = "visual_switch_cursor"
+
+# [general]
+# font =
+# background = 
+# resolution =
+# font_size =
+# cursor_color = 
+# text_color =
+
+# [advanced]
+# scroll_speed = 3
+# max_buffer_size =
+# undo_limit = 50
+# autosave_interval = 300
